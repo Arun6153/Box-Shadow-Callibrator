@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-div {
+    height: 10vh;
+    width: 100%;
+    background-color: #141414;
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+header {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    text-shadow: -5px 5px 2px #6e6868;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #9e9b9b;
+    width: 1000px;
+    height: auto;
+    position: relative;
+    margin: 10px auto;
+    padding: 2px;
+}
+
+.config-box {
+    margin-top: 50px;
+    padding: 10px 20px;
+    width: 350px;
+    height: auto;
+}
+
+.box-div {
+    margin-top: 50px;
+    width: 350px;
+    height: auto;
+    padding-top:10px ;
+}
+
+.color-div {
+    margin: 50px 20px;
+    width: 240px;
+    height: 40vh;
+    padding-top:10px ;
+}
+
+.box {
+    margin-top: 30px;
+    width: 350px;
+    height: 350px;
+    background: #ebebeb;
+    border: 1px solid #757474;
+    border-radius: 10px;
+}
+
+.slidecontainer {
+    position: relative;
+    margin: 20px auto;
+    padding: 5px;
+    height: 10vh;
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+label {
+    margin: 2px;
+    font-weight: bold;
+    color: #141414;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #9e9b9b;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+#BOX {
+    position: relative;
+    margin: 15vh auto;
+    width: 150px;
+    height: 150px;
+    background: #e4dddd;
+    border:1px solid black;
+}
+
+input[type=text] {
+    padding-left: 10px;
+}
+
+#input {
+    width: 180px;
+    padding: 2px;
+    height: 5vh;
+}
+
+.color {
+    width: 100%;
+    margin: 0px 0px 50px 0px;
+    background-color: #ebebeb;
+    padding: 5px;
+}
+
+.footer-div {
+    background-color: #141414;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
